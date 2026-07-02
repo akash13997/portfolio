@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: 228 32% 6%;
+  --surface: 228 28% 9%;
+  --surface-2: 228 24% 12%;
+  --border: 228 18% 20%;
+  --ink: 220 20% 96%;
+  --muted: 220 12% 65%;
+  --grid-glow: 234 89% 65%;
+}
+
+.light {
+  --bg: 220 30% 99%;
+  --surface: 0 0% 100%;
+  --surface-2: 220 25% 96%;
+  --border: 220 18% 88%;
+  --ink: 228 28% 10%;
+  --muted: 222 12% 42%;
+  --grid-glow: 234 89% 65%;
+}
+
+* {
+  border-color: hsl(var(--border));
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: hsl(var(--bg));
+  color: hsl(var(--ink));
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+::selection {
+  background: #6366F1;
+  color: white;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: hsl(var(--bg));
+}
+::-webkit-scrollbar-thumb {
+  background: hsl(var(--border));
+  border-radius: 8px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #6366F1;
+}
+
+.glass {
+  background: hsl(var(--surface) / 0.6);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid hsl(var(--border) / 0.8);
+}
+
+.text-gradient {
+  background: linear-gradient(120deg, #818CF8, #60A5FA, #A78BFA);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.aurora-bg {
+  background: linear-gradient(120deg, #6366F1, #3B82F6, #8B5CF6, #6366F1);
+  background-size: 300% 300%;
+  animation: aurora 14s ease infinite;
+}
+
+.mesh {
+  background-image:
+    radial-gradient(at 15% 20%, hsl(234 89% 65% / 0.18) 0px, transparent 50%),
+    radial-gradient(at 85% 10%, hsl(258 90% 66% / 0.15) 0px, transparent 50%),
+    radial-gradient(at 50% 80%, hsl(217 91% 60% / 0.12) 0px, transparent 50%);
+}
+
+.focus-ring:focus-visible {
+  outline: 2px solid #818CF8;
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+
+.grid-overlay {
+  background-image:
+    linear-gradient(hsl(var(--border) / 0.5) 1px, transparent 1px),
+    linear-gradient(90deg, hsl(var(--border) / 0.5) 1px, transparent 1px);
+  background-size: 48px 48px;
+  mask-image: radial-gradient(ellipse 80% 60% at 50% 0%, black 40%, transparent 100%);
+}
