@@ -89,8 +89,10 @@ export default function Hero() {
 
           <motion.div variants={item} className="mt-9 flex flex-wrap items-center gap-3">
             <a
-              href="/resume.pdf"
+              href="https://drive.google.com/file/d/1341DfarPReBVQBCrdCiYVWKs7Hb85vGT/view?usp=sharing"
               download
+              target="_blank"
+              rel="noreferrer"
               className="focus-ring group relative overflow-hidden rounded-full bg-gradient-to-r from-indigo via-blue to-violet px-6 py-3 text-sm font-semibold text-white shadow-[0_0_30px_-8px_rgba(99,102,241,0.6)] transition-transform hover:scale-[1.03] active:scale-[0.98]"
             >
               Download Resume
@@ -164,7 +166,7 @@ export default function Hero() {
               </div>
               <div className="flex items-center justify-between rounded-lg border border-border bg-surface-2/60 px-3 py-2">
                 <span className="text-muted">experience</span>
-                <span className="text-ink">3+ years</span>
+                <span className="text-ink">3.5+ years</span>
               </div>
               <div className="rounded-lg border border-indigo/30 bg-indigo/10 px-3 py-2.5 text-[11px] leading-relaxed text-muted">
                 <FolderGit2 className="mb-1 text-indigo-light" size={14} />

@@ -79,6 +79,8 @@ export default function Header() {
           <a
             href="https://drive.google.com/file/d/1341DfarPReBVQBCrdCiYVWKs7Hb85vGT/view?usp=sharing"
             download
+            target="_blank"
+            rel="noreferrer"
             className="focus-ring hidden items-center gap-1.5 rounded-full border border-border px-3.5 py-1.5 text-sm font-medium text-ink transition-colors hover:border-indigo/60 hover:text-indigo-light sm:flex"
           >
             <Download size={14} /> Resume
@@ -115,8 +117,10 @@ export default function Header() {
                 </a>
               ))}
               <a
-                href="/resume.pdf"
+                href="https://drive.google.com/file/d/1341DfarPReBVQBCrdCiYVWKs7Hb85vGT/view?usp=sharing"
                 download
+                target="_blank"
+                rel="noreferrer"
                 className="focus-ring mt-1 flex items-center gap-1.5 rounded-lg border border-border px-3 py-2.5 text-sm font-medium text-ink"
               >
                 <Download size={14} /> Download Resume

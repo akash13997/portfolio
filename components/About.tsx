@@ -60,7 +60,7 @@ export default function About() {
               transition={{ duration: 0.5, delay: 0.3 }}
               className="flex flex-wrap gap-2 pt-2"
             >
-              {["React.js", "Next.js", "TypeScript", "Node.js", "MongoDB", "Stripe", "SEO", "Authentication"].map(
+              {["React.js", "Next.js", "JavaScript", "TypeScript", "Redux Toolkit (RTK)", "Redux-Saga", "Formik", "Node.js", "Express.js", "MongoDB", "PostgreSQL", "Stripe", "JWT Authentication", "Git & GitHub", "Postman", "VS Code", "Cron Jobs","HTML5", "CSS3", "Tailwind CSS", "Bootstrap", "Material UI", "Responsive Design"].map(
                 (tag) => (
                   <span
                     key={tag}
