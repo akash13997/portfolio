@@ -89,7 +89,7 @@ export default function Hero() {
 
           <motion.div variants={item} className="mt-9 flex flex-wrap items-center gap-3">
             <a
-              href="https://drive.google.com/file/d/1341DfarPReBVQBCrdCiYVWKs7Hb85vGT/view?usp=sharing"
+              href="{profile.resume}"
               download
               target="_blank"
               rel="noreferrer"

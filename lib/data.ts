@@ -13,6 +13,7 @@ export const profile = {
   phone: "9990885804",
   github: "https://github.com/akash13997",
   linkedin: "https://www.linkedin.com/in/akash-singh-3028951b5/",
+  resume: "https://drive.google.com/file/d/1lZpV2KZNgGLKs3rfxI1VsbY35UQdbvdQ/view",
   availability: "Available for new opportunities",
   summary:
     "Full stack developer with 3.5+ years of experience shipping production web applications end to end — from pixel-perfect, SEO-friendly React and Next.js interfaces to the Node.js APIs and databases behind them. I focus on performance, clean architecture, and interfaces that feel considered rather than assembled.",

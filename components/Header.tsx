@@ -5,6 +5,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X, Download } from "lucide-react";
 import ThemeToggle from "./ThemeToggle";
 import { cn } from "@/lib/utils";
+import { profile } from "@/lib/data";
 
 const NAV = [
   { href: "#about", label: "About" },
@@ -77,7 +78,7 @@ export default function Header() {
 
         <div className="flex items-center gap-2">
           <a
-            href="https://drive.google.com/file/d/1341DfarPReBVQBCrdCiYVWKs7Hb85vGT/view?usp=sharing"
+            href={profile.resume}
             download
             target="_blank"
             rel="noreferrer"
@@ -117,7 +118,7 @@ export default function Header() {
                 </a>
               ))}
               <a
-                href="https://drive.google.com/file/d/1341DfarPReBVQBCrdCiYVWKs7Hb85vGT/view?usp=sharing"
+                href="{profile.resume}"
                 download
                 target="_blank"
                 rel="noreferrer"
