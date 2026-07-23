@@ -118,7 +118,7 @@ export default function Header() {
                 </a>
               ))}
               <a
-                href="{profile.resume}"
+                href={profile.resume}
                 download
                 target="_blank"
                 rel="noreferrer"

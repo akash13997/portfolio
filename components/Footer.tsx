@@ -35,7 +35,7 @@ export default function Footer() {
                 </li>
               ))}
               <li>
-                <a href="{profile.resume}" target="_blank" rel="noreferrer" className="focus-ring text-sm text-muted transition-colors hover:text-indigo-light">
+                <a href={profile.resume} target="_blank" rel="noreferrer" className="focus-ring text-sm text-muted transition-colors hover:text-indigo-light">
                   Download Resume
                 </a>
               </li>
