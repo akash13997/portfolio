@@ -16,14 +16,14 @@ export const profile = {
   resume: "https://drive.google.com/file/d/1lZpV2KZNgGLKs3rfxI1VsbY35UQdbvdQ/view",
   availability: "Available for new opportunities",
   summary:
-    "Full stack developer with 3.5+ years of experience shipping production web applications end to end — from pixel-perfect, SEO-friendly React and Next.js interfaces to the Node.js APIs and databases behind them. I focus on performance, clean architecture, and interfaces that feel considered rather than assembled.",
+    "Full stack developer with 3.6+ years of experience shipping production web applications end to end — from pixel-perfect, SEO-friendly React and Next.js interfaces to the Node.js APIs and databases behind them. I focus on performance, clean architecture, and interfaces that feel considered rather than assembled.",
   aboutParagraphs: [
     "I'm a full stack developer who enjoys owning a feature from the database schema to the last pixel of the interface. Over the past three years I've worked across the stack — React and Next.js on the frontend, Node.js and REST APIs on the backend, and MongoDB, MySQL, or PostgreSQL depending on what the project needs.",
     "Most of my recent work has centered on building server-rendered, SEO-optimized applications with Next.js, integrating payment infrastructure like Stripe, and collaborating closely with backend teams to keep API calls lean and application performance high.",
     "I care about clean architecture, readable component libraries, and the kind of small performance decisions that add up to a product that feels fast. I'm equally comfortable debugging a tricky state management bug as I am reasoning about API design."
   ],
   stats: [
-    { label: "Years of Experience", value: 3.5, suffix: "+" },
+    { label: "Years of Experience", value: 3.6, suffix: "+" },
     { label: "Projects Delivered", value: 8, suffix: "+" },
     { label: "Core Technologies", value: 15, suffix: "+" },
     { label: "Companies Worked With", value: 2, suffix: "" }
@@ -33,11 +33,11 @@ export const profile = {
 export const skills = [
   {
     category: "Frontend",
-    items: ["React.js", "Next.js", "Redux Toolkit (RTK)", "Redux-Saga", "Formik", "Tailwind CSS", "Bootstrap", "Material UI"]
+    items: ["React.js", "Next.js", "Redux Toolkit (RTK)", "Redux-Saga", "Formik", "React Router", "Tailwind CSS", "Bootstrap", "Material UI", "SCSS/SASS", "Responsive Design"]
   },
   {
     category: "Backend",
-    items: ["Node.js", "Express.js", "REST APIs", "JWT Authentication", "Cron Jobs"]
+    items: ["Node.js", "Express.js", "REST APIs", "JWT Authentication", "Cron Jobs", "RBAC", "OAuth", "Mongoose", "Multer", "Nodemailer"]
   },
   {
     category: "Database",
@@ -53,7 +53,7 @@ export const skills = [
   },
   {
     category: "Tools & Workflow",
-    items: ["Git & GitHub", "Postman", "VS Code", "Agile / Scrum"]
+    items: ["Git & GitHub", "Postman", "VS Code","Jira", "Agile / Scrum"]
   }
 ];
 
